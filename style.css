@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(#C833FF, #FF33A2);
+}
+/* root */
+:root {
+    --size-textos: 30px;
+    --font-textos: 'Open Sans', sans-serif; 
+    --size-titulos: 80px;
+    --font-titulos: 'Bebas Neue', cursive;
+    --style-titulos: italic;
+}
+
+
+
+
+
+/* Header logo */
+header {
+    background-color: black;
+}
+
+.header-logo {
+    width: 320px;
+    height: 120px;
+}
+/* Fin header logo */
+
+/* Menu navegacion */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(114, 114, 114));
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+    font-family:  'Bebas Neue', cursive;
+    font-size: x-large;
+    font-style: italic;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: grey;
+}
+
+/* Fin menu navegacion */
+/* descripcion y objetivos */
+
+.texto-titulo {
+    size: 35px;
+     text-align: center;
+ }
+
+
+/* Fin descripcion y objetivos */
+
+/* Informacion */
+#acerca-de-mi {
+    height: auto;
+}
+.img-text-container {
+    display: flex;
+    
+}
+.texto-titulo {
+    
+    font-size: var(--size-titulos);
+    color: white;
+    font-family: var(--font-titulos);
+    text-shadow: 1px 1px 2px rgb(98, 98, 98);
+    font-style: var(--style-titulos);
+
+}
+.imagen-papa {
+    float: right;
+  width: 300px;
+  border: 3px solid black;
+  padding: 10px;
+}
+.texto-descripcion {
+    padding-left: 44px;
+    font-size: var(--size-textos);
+    color: white;
+    font-family: var(--font-textos);
+}
+/* Fin informacion sobre mi */
+
+/* Representaciones */
+flex-container {
+  display: flex;
+  background-color: black;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* Fin representaciones */
+#carouselExampleCaptions {
+    width: 35%;
+    height: 35%;
+    align-items: center;
+}
+
+/* Zona comercial */
+  
+    
+#zona-comercial , h2 {
+    font-size: var(--size-titulos);
+    font-family: var(--font-titulos);
+    font-style: italic;
+    color: white;
+    text-shadow: rgb(98, 98, 98);
+    text-align: center;
+}
+.zonas-container  {
+display: flex;
+}
+.black {
+    color: black;
+}
+/* Fin representaciones */
+
+/* Logistica */
+#logistica  {
+    height: auto;
+}
+#logistica , h2 {
+   color: black;
+    font-family: var(--font-titulos);
+    font-size: var(--size-titulos);
+    font-style: var(--style-titulos);
+}
+.parrafo-descriptivo-dos {
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    font-size: var(--size-textos);
+    font-family: var(--font-textos);
+}
+/* Fin logistica */
+
+
+/* Contacto */  /*espacio para el formlario*/
+#contacto {
+    height: 915px;
+}
+/* Fin contacto */
+
+/* footer */
+footer {
+display: flex;
+height: 315px;
+background-color: black;
+color: white;
+font-size: 25px;
+flex-wrap: wrap;
+font-family: var(--font-textos);
+justify-content: center;
+align-items: left;
+padding: 5% 0%;
+}
+
+
+
+
